@@ -1,4 +1,8 @@
 /* Файл стилей */
 body {
-	background-color: #F00;
+	background-color: #fff;
+	color:#2f2f2f;
+	font-family: Tahoma, Verdana, sans-serif;
+	font-size: 1em;
+	line-height: 1.5em;
 }
