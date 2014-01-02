@@ -1,0 +1,7 @@
+# Comment
+tempfile.txt
+.DS-Store
+*.zip
+*.gz
+log/*.log
+log/*.log.[0-9]
