@@ -4,12 +4,18 @@ window.onload = function() {
 		var li = document.createElement('li');
 		var a = document.createElement('a');
 		a.setAttribute('href', '#');
-		a.onclick = function(q) { 
-			return function(e) {
-				e.preventDefault();
-				alert(q); 
-			}
-		}(i);
+		// a.onclick = function(q) { 
+		// 	return function(e) {
+		// 		e.preventDefault();
+		// 		alert(q); 
+		// 	}
+		// }(i);
+		a.onclick = function () {
+			var q = i;
+			return function cl() {
+				alert(q);
+			} 			
+		}();
 		a.innerHTML = "Меню " + i;
 		li.appendChild(a);
 		mylist.appendChild(li);
