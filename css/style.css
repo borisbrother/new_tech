@@ -15,3 +15,18 @@ nav ul li {
 a {
 	color: #2f882f;
 }
+
+.day {
+	background-color: white;
+	color:black;
+}
+
+.night {
+	background-color: black;
+	color:white;
+}
+
+#karkas {
+	border: 1px solid #333;
+	padding: 2px;
+}
